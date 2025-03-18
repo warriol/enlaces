@@ -1,0 +1,211 @@
+svg:not(:root) {
+    display:block;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 0.8em;
+  font-family: Sans-Serif;
+}
+
+form {
+  background-color: #cccccc;
+  border-radius: 0.3em;
+  display: inline-block;
+  margin-bottom: 0.5em;
+  padding: 1em;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+input {
+  border-color: #cccccc;
+  border-radius: 0.3em;
+}
+
+/* Canvas docs, playable samples */
+.playable-code {
+  background-color: #F4F7F8;
+  border: none;
+  border-left: 6px solid  #558ABB;
+  border-width: medium medium medium 6px;
+  color: #4D4E53;
+  height: 100px;
+  width: 90%;
+  padding: 10px 10px 0px;
+}
+
+.playable-canvas {
+  border: 1px solid #4D4E53;
+  border-radius: 2px;
+}
+
+.playable-buttons {
+  text-align: right;
+  width: 90%;
+  padding: 5px 10px 5px 26px;
+}
+
+.required:after {
+  content: "*";
+  color: red;
+}
+
+.button-pane {
+  margin-top: 1em;
+}
+
+.action-success {
+  padding: 0.5em;
+  color: #00d21e;
+  background-color: #eeeeee;
+  border-radius: 0.2em;
+}
+
+.action-failure {
+  padding: 0.5em;
+  color: #ff1408;
+  background-color: #eeeeee;
+  border-radius: 0.2em;
+}
+
+.note {
+  font-size: smaller;
+}
+
+.destructive {
+  background-color: orange;
+}
+.destructive:hover {
+  background-color: #ff8000;
+}
+.destructive:active {
+  background-color: red;
+}
+
+#pub-viewer {
+  float: right;
+  width: 48%;
+  height: 20em;
+  border: solid #d092ff 0.1em;
+}
+#pub-viewer iframe {
+  width: 100%;
+  height: 100%;
+}
+
+#pub-list {
+  width: 100%;
+  background-color: #eeeeee;
+  border-radius: 0.3em;
+}
+#pub-list li {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-right: 0.5em;
+}
+
+#msg {
+  margin-bottom: 1em;
+}
+
+#formulario_registro {
+  background-color: #fff;
+  border-radius: 10px;
+  height: 150px;
+  left: 5%;
+  padding: 10px;
+  position: absolute;
+  top: -121px;
+  width: 370px;
+  z-index: 0;
+  transition: top 2s;
+}
+
+#formulario_registro input {
+    background: url("../img/login-sprite.png") no-repeat scroll 0 0 #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px #ccc inset, 0 1px 0 #fff;
+    margin: 0 0 10px;
+    padding: 15px 15px 15px 30px;
+  }
+
+#usr {
+  background-position: 5px -2px !important;
+  width: 180px;
+}
+
+#pass {
+  background-position: 5px -52px !important;
+  width: 180px;
+}
+
+#formulario_registro::before {
+    border: 1px dashed #2985ac;
+    border-radius: 10px;
+    bottom: 5px;
+    box-shadow: 0 0 0 1px #fff;
+    content: "";
+    left: 5px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    z-index: -1;
+}
+
+#formulario_registro:hover {
+  top: 0px;
+}
+
+#formulario_registro input {
+  margin: 3px;
+}
+
+#colVertical {
+  display: block;
+}
+
+#colVertical ul {
+  list-style: none;
+  margin: 0px;
+}
+
+#colVertical ul li {
+  float: left;
+  width: 192px;
+}
+
+#colVertical > ul:nth-child(1) > li:nth-child(2) {
+  margin-left: 20px;
+  margin-top: 34px;
+  width: 90px;
+}
+
+#enviar_frm_inicio {
+  background: linear-gradient(to bottom, rgba(205,235,142,1) 0%,rgba(165,201,86,1) 100%);
+  border: 1px solid #000;
+  border-radius: 5px;
+  box-shadow: 0 1px 1px #ccc inset, 0 1px 0 #fff;
+  color: 000;
+  margin: 0 0 10px;
+  padding: 10px 10px 10px 10px;
+}
+
+#enviar_frm_inicio:hover {
+  background: linear-gradient(to bottom, rgba(180,221,180,1) 0%,rgba(131,199,131,1) 17%,rgba(82,177,82,1) 33%,rgba(0,138,0,1) 67%,rgba(0,87,0,1) 83%,rgba(0,36,0,1) 100%);
+  color: fff;
+}
+
+#etiqueta {
+  clear: both;
+  display: block;
+  text-align: center;
+}
+
+#etiqueta span {
+  font-size: 2em;
+}

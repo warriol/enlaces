@@ -1,0 +1,156 @@
+/*
+ * Inicio de Sitio Web para Ingreso de Denuncias por parte de ciudadanos
+ * Para uso exclusivo de Ministerior del Interior - Republica Oriental de Uruguay
+ * Autor: Wilon Denis Arriola
+ * 01/10/2013 - Montevideo Uruguay
+ * 
+ * Pagina css
+ *
+ * hoja de stilo para la pagina de error
+ *
+ */
+/* FORMULARIO DE ERROR */
+	@font-face				{	font-family:"Artifika";	src: url("../fonts/Artifika-Regular.ttf") format('truetype'), url("../fonts/Artifika-Regular.woff") format('woff');}
+	@font-face				{	font-family: "Museo"; src: url("../fonts/Museo700-Regular.otf");}
+	body 					{	line-height: 1;}
+	html, body 				{ 	margin: 0; padding: 0; width: 100%; }
+	ol, ul 					{	list-style: none;}
+	blockquote, q 			{	quotes: none;}
+	:focus 					{	outline: 0;}
+	ins 					{	text-decoration: none;}
+	del 					{	text-decoration: line-through;}
+	table 					{	border-collapse: collapse;	border-spacing: 0; }
+	a img 					{	border:none }
+	h1, h2, h5				{   margin:0px; padding:0px; margin-bottom:0px; font-weight: normal; text-align: left; font-size: 16px;}
+	h1, h1 a				{   font-size:34px !important; font-weight: bold !important; text-decoration: none !important; color: #333 !important;}
+
+/* 
+	C L A S E S
+*/
+	.aligncenter 			{	display:block; margin:0 auto }
+	.alignleft 				{	float:left }
+	.alignright 			{	float:right }
+	br.clear 				{	clear:both; display:block; height:1px; margin:-1px 0 0 0 }
+	.icono					{	font-size:15px;	padding-left:5px;	padding-right:5px;	color:#F63;}
+	.iconogrande			{	margin-left:5px; font-size:26px;}
+	.iconoenorme			{	margin-left:5px; font-size:36px;}
+	.brillo					{	/* text-shadow: 3px 3px 3px rgba(256, 256, 256, 0.7);-webkit-text-shadow: 3px 3px 3px rgba(256, 256, 256, 0.7);-moz-text-shadow: 3px 3px 3px rgba(256, 256, 256, 0.7);*/
+								text-shadow: 1px 1px 0px rgba(230,230,230,1), 2px 2px 0px rgba(200,200,200,1), 3px 3px 0px rgba(180,180,180,1), 3.5px 3.5px 0px rgba(0,0,0,1), 6px 6px 6px rgba(0,0,0,0.5);
+/* 0px rgba(160,160,160,1), 5px 5px 0px rgba(0,0,0,1), 8px 8px 20px rgba(0,0,0,0.5);*/
+								-moz-text-shadow: 1px 1px 0px rgba(230,230,230,1), 2px 2px 0px rgba(200,200,200,1), 3px 3px 0px rgba(180,180,180,1), 4px 4px 0px rgba(160,160,160,1), 5px 5px 0px rgba(0,0,0,1), 8px 8px 20px rgba(0,0,0,0.5);
+								-webkit-text-shadow: 1px 1px 0px rgba(230,230,230,1), 2px 2px 0px rgba(200,200,200,1), 3px 3px 0px rgba(180,180,180,1), 4px 4px 0px rgba(160,160,160,1), 5px 5px 0px rgba(0,0,0,1), 8px 8px 20px rgba(0,0,0,0.5);}
+	.rojo					{	color:#F00 !important;}
+	.azul					{	color:#06F !important}
+
+/*
+	E S T I L O S
+*/
+	body					{   font-size:16px; font-weight:normal; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #333; padding: 0; margin: 0;
+    							border: 0;background: url("../images/bgarriba4.jpg") left top repeat-x,url("../images/fondoMI.jpg") repeat;}
+	h1						{	font-size: 2em; line-height: 1em;}
+	h2						{	font-size: 1.3em; line-height: 1em; margin-top: 10px;}
+	h2						{	font-family: 'Museo';}
+	p						{	margin-top: 10px;}
+	a:link, a:visited		{	color:#36C; text-decoration:none; }
+	a:hover					{	color:#3C3;}
+	a:active				{	color:#36C; text-decoration:none; }
+/*
+	C A B E C E R A
+*/	
+	#contenido-cabecera		{	width: 960px; margin: 0 auto;}
+	#cabecera #logo a	    {	display: block; width: 353px; height: 76px; text-indent: -9000px; }
+	#contenido-cabecera img	{	margin-top: 51px; float: right;}
+	#head					{	width:1024px; height:100px;	margin: 0 auto;	box-shadow: 0 0 -20px rgba(0, 0, 0, 0.5);	-webkit-box-shadow: 0 0 -20px rgba(0, 0, 0, 0.5);
+								-moz-box-shadow: 0 0 -20px rgba(0, 0, 0, 0.5);}
+	header					{    height:90px;    padding: 10px 0px;}
+
+	#home					{	float: right; margin-top: 5px;	margin-right: 10px;	vertical-align: middle;}
+	#logo					{	height:90px;}
+	#titulo					{	font-family:"Artifika";	color:#FFF !important;	font-size:32px !important;	text-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+								-webkit-text-shadow: 3px 3px 3px rgba(0,0,0,0.5);	-moz-text-shadow: 3px 3px 3px rgba(0,0,0,0.5);}
+	#subtitulo				{	font-family:"Artifika";	color:#FFF !important;	font-size:24px !important;	text-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+								-webkit-text-shadow: 3px 3px 3px rgba(0,0,0,0.5);	-moz-text-shadow: 3px 3px 3px rgba(0,0,0,0.5);}
+
+/*
+	C O N T E N I D O
+*/
+	#unbloque				{	margin:20px;}
+	#msjerror				{	width: 800px; margin: 50px auto 0; font-style:italic; font-size:18px;}
+	#izquieda				{	text-align:right;}
+    form                    {   margin-top: 30px;}
+	#principal				{   width:1024px;    margin: 0 auto;	margin-top:12px;	padding:10px;	background: rgb(229,229,229); /* Old browsers */
+								background: -moz-linear-gradient(top,  rgba(229,229,229,0.9) 0%, rgba(255,255,255,0.9) 100%); /* FF3.6+ */
+								background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(229,229,229,0.9)), color-stop(100%,rgba(255,255,255,0.9))); /* Chrome,Safari4+ */
+								background: -webkit-linear-gradient(top,  rgba(229,229,229,0.9) 0%,rgba(255,255,255,0.9) 100%); /* Chrome10+,Safari5.1+ */
+								background: -o-linear-gradient(top,  rgba(229,229,229,0.9) 0%,rgba(255,255,255,0.9) 100%); /* Opera 11.10+ */
+								background: -ms-linear-gradient(top,  rgba(229,229,229,0.9) 0%,rgba(255,255,255,0.9) 100%); /* IE10+ */
+								background: linear-gradient(to bottom,  rgba(229,229,229,0.9) 0%,rgba(255,255,255,0.9) 100%); /* W3C */
+								filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+								box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.5),10px 10px 20px rgba(0, 0, 0, 0.5);	border-radius: 0 25px 25px 0;
+								-webkit-border-radius: 0 25px 25px 0;	-moz-border-radius: 0 25px 25px 0;
+								-webkit-box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.5),10px 10px 20px rgba(0, 0, 0, 0.5);
+								-moz-box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.5),10px 10px 20px rgba(0, 0, 0, 0.5);	z-index:5;}
+	#container				{	z-index:200;}
+	#mibloque				{   padding:10px; box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.5),10px 10px 20px rgba(0, 0, 0, 0.5); border-radius: 0 25px 25px 0;
+								column-count: 3; -webkit-column-count: 3; -moz-column-count: 3; -o-column-count: 3;  /*Espacio entre columnas*/
+								column-gap: 2em; -webkit-column-gap: 2em; -moz-column-gap: 2em; -o-column-gap: 2em; /*Agrega una barra solida de color*/
+								column-rule: 2px solid #666; -webkit-column-rule: 2px solid #666; -moz-column-rule: 2px solid #666; -o-column-rule: 2px solid #666;
+								-webkit-border-radius: 0 25px 25px 0; -moz-border-radius: 0 25px 25px 0; 
+								-webkit-box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.5),10px 10px 20px rgba(0, 0, 0, 0.5);
+								-moz-box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.5),10px 10px 20px rgba(0, 0, 0, 0.5);}
+	/* MENSAJE */ 
+	#micolumna				{	margin:auto 100px;text-align:left;padding: 10px; /* font-size:12px;line-height:2em; */
+								border-radius: 0 5px 5px 0;-webkit-border-radius: 0 5px 5px 0;-moz-border-radius: 0 5px 5px 0;box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.5),
+								5px 5px 10px rgba(0, 0, 0, 0.5);-webkit-box-shadow: -5px 5px 10px  rgba(0, 0, 0, 0.5),5px 5px 10px rgba(0, 0, 0, 0.5);-moz-box-shadow:
+								-5px 5px 10px  rgba(0, 0, 0, 0.5),5px 5px 10px rgba(0, 0, 0, 0.5);}
+	.noti_titulo			{	text-align:center;font-size:18px;color:#FFF;padding:5px;/*width:400px;*/background-color:#CCC;border:1px solid #3e3e3e;}
+	.noti_mensaje			{	font-style:italic; font-size:18px;padding:10px;/*width:397px;height:50px;*/border:1px solid #3e3e3e;}
+
+/* P I E */
+	footer					{	clear: both;margin: 0 auto;height:190px;width:1024px;margin-top:25px;padding: 10px;background: rgb(122,188,255); /* Old browsers */
+								background: -moz-linear-gradient(top,  rgba(122,188,255,0.9) 0%, rgba(96,171,248,0.9) 44%, rgba(64,150,238,0.9) 100%); /* FF3.6+ */
+								background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(122,188,255,0.9)), color-stop(44%,rgba(96,171,248,0.9)),
+								color-stop(100%,rgba(64,150,238,0.9))); /* Chrome,Safari4+ */
+								background: -webkit-linear-gradient(top,  rgba(122,188,255,0.9) 0%,rgba(96,171,248,0.9) 44%,rgba(64,150,238,0.9) 100%); /* Chrome10+,Safari5.1+ */
+								background: -o-linear-gradient(top,  rgba(122,188,255,0.9) 0%,rgba(96,171,248,0.9) 44%,rgba(64,150,238,0.9) 100%); /* Opera 11.10+ */
+								background: -ms-linear-gradient(top,  rgba(122,188,255,0.9) 0%,rgba(96,171,248,0.9) 44%,rgba(64,150,238,0.9) 100%); /* IE10+ */
+								background: linear-gradient(to bottom,  rgba(122,188,255,0.9) 0%,rgba(96,171,248,0.9) 44%,rgba(64,150,238,0.9) 100%); /* W3C */
+								filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7abcff', endColorstr='#4096ee',GradientType=0 ); /* IE6-9 */
+								border-radius: 0 25px 25px 25px;-webkit-border-radius: 0 25px 25px 25px;-moz-border-radius: 0 25px 25px 25px;box-shadow:
+								-10px 10px 20px rgba(0, 0, 0, 0.5),10px 10px 20px rgba(0, 0, 0, 0.5);-webkit-box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.5),
+								10px 10px 20px rgba(0, 0, 0, 0.5);	-moz-box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.5),10px 10px 20px rgba(0, 0, 0, 0.5);}
+	.columnas				{	text-align: center;-moz-column-count:3;-moz-column-width:300px;-moz-column-grap:10px;-moz-column-rule: 1px solid #ccc;-webkit-column-count:3;
+								-webkit-column-width:300px;-webkit-column-grap:10px;-webkit-column-rule: 1px solid #ccc;}
+	.bloques				{	float:left;position: relative;width: 290px;padding-top: 15px;-webkit-padding-top:15px;padding-left: 15px;}
+	.bloques_mid			{	float:left;position: relative;width: 330px;padding-top: 5px;-webkit-padding-top:5px;padding-left: 5px; vertical-align:middle;}
+	.bloques_mid p			{	text-align:center;font-size:10px !important;}
+	.bloques_mid h2			{	text-align: left; font-size: 16px !important;}
+	.bloques_mid a			{	color:#F63 !important;}
+	.marco					{	display:block;width:290px;background:url(../images/image-frames.png) top left no-repeat;height:180px;margin:0;padding:10px 2px;}
+	.marco2					{	padding:6px 3px;}
+	.sinmarco				{	width:300px;height:180px;padding:5px 2px;}
+	.sombra					{	text-shadow: 3px 3px 3px rgba(0,0,0,0.7);-webkit-text-shadow: 3px 3px 3px rgba(0,0,0,0.7);-moz-text-shadow: 3px 3px 3px rgba(0,0,0,0.7);}
+	.sombraborde			{	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);-webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);-moz-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);}
+/*
+D A T A   T O O L 
+*/
+	span a:link				{	position:relative;text-decoration:none}
+/*
+	span a:before			{	content: "";position:absolute;border-top: 20px solid #000;	border-left:30px solid transparent;	border-right:30px solid transparent;
+								display:none;top: 18px;left:-5px;}
+*/
+	span a:after			{	content:attr(data-tooltip);	position:absolute;	color: #000;top: 35px;	left:-26px;	background:#0090ff;	padding:5px 15px;
+								-webkit-border-radius: 10px;-moz-border-radius:10px;border-radius:10px;	white-space:nowrap;	display:none;border:2px solid;
+								-webkit-box-shadow:5px 5px 10px rgba(0, 0, 0, 0.7), inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+								-moz-box-shadow:5px 5px 10px rgba(0, 0, 0, 0.7), inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+								box-shadow:5px 5px 10px rgba(0, 0, 0, 0.7), inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+								background: rgb(197,222,234); /* Old browsers */
+								background: -moz-linear-gradient(top,  rgba(197,222,234,1) 0%, rgba(138,187,215,1) 31%, rgba(6,109,171,1) 100%); /* FF3.6+ */
+								background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(197,222,234,1)), color-stop(31%,rgba(138,187,215,1)), color-stop(100%,rgba(6,109,171,1))); /* Chrome,Safari4+ */
+								background: -webkit-linear-gradient(top,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 31%,rgba(6,109,171,1) 100%); /* Chrome10+,Safari5.1+ */
+								background: -o-linear-gradient(top,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 31%,rgba(6,109,171,1) 100%); /* Opera 11.10+ */
+								background: -ms-linear-gradient(top,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 31%,rgba(6,109,171,1) 100%); /* IE10+ */
+								background: linear-gradient(to bottom,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 31%,rgba(6,109,171,1) 100%); /* W3C */
+								filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c5deea', endColorstr='#066dab',GradientType=0 ); /* IE6-9 */}
+	span a:hover:after,
+	span a:hover:before		{	display:block;}

@@ -1,0 +1,98 @@
+/* CSS Document */
+/*
+ * Inicio de Sitio Web para Ingreso de Denuncias por parte de ciudadanos
+ * Para uso exclusivo de Ministerior del Interior - Republica Oriental de Uruguay
+ * Autor: Wilon Denis Arriola
+ * 01/10/2013 - Montevideo Uruguay
+ * 
+ * Pagina css
+ *
+ * hoja de stilo para los formularios
+ *
+ */
+/* validacion de formulario */
+	input:invalid			{	border: 2px solid red;}
+	input:valid				{	border: 2px solid green;} /* Estilo por defecto */
+	input:required:invalid 	{	border: 2px solid red;} /* Estilo por defecto */
+	input:required:valid 	{	border: 2px solid green;}
+	select:invalid			{	border: 2px solid red;}
+	select:valid			{	border: 2px solid green;}
+	select:required:invalid	{	border: 2px solid red;}
+	select:required:valid	{	border: 2px solid red;}
+
+/* estilos para el título */
+	#miformu legend,
+	#formu legend 			{   margin: 0 auto;font-size:20px;font-weight: bold;margin:5px;}
+ 
+/* estilos para el contenedor */
+	#contmiformu 			{	border: 0; padding: 3px;}
+	#inicio form			{	float: right;margin-top: 5px;margin-right: 10px;vertical-align: middle;}
+ 
+/* estilos para el formulario */
+	#miformu, #formu		{	}
+	#miformu label,
+	#formu label 			{	display:inline-block; margin:0;}
+	#form_enliena			{	display:inline-block; margin:0;}
+	#miformu label span,
+	#formu label span 		{   display: block;margin-left: 7px;}
+	#separador				{	width:600px;height:19px;margin: 0 auto;background:url(../images/separacion.png) no-repeat;}
+	#separador span			{	visibility:hidden;}
+ 
+ /* ------------- estilos ------------- */
+ 	#form_enliena input 	{	float:left;  margin-left:10px; margin-top:3px; margin-bottom:5px;}
+ 	#miformu label input,
+	#miformu label select,
+	#miformu label textarea {   margin-left: 40px; margin-top: 5px; padding-left: 3px; -moz-transition: all .25s; -webkit-transition: all .25s; 
+    							-o-transition: all .25s;transition: all .25s;}
+ 	#formu label input,
+	#formu label select,
+	#formu label textarea 	{   margin-left: 40px; margin-top: 5px; padding-left: 3px;}
+
+/* efectos para los input y area de texto */
+	#miformu label
+	input:focus, #miformu
+	label textarea:focus,
+	#miformu label
+	select:focus 			{   background:#999; padding-right:35px; margin-left: 15px;}
+	#miformu .submit 		{   margin-left: 50px;font-size: 14px;font-weight: bold; padding: 3px; margin-bottom: 7px; background-color: #808080; color: #fff;
+    							cursor: pointer; -moz-transition: all .32s; -webkit-transition: all .32s; -o-transition: all .32s;transition: all .32s;}
+ 
+/* estilos para boton de envío */
+	#miformu .submit:hover	{   padding: 3px 5px; background-color: #ebe7e7; color: #0000FF;}
+
+/* Botones */
+	.btn_linea				{	cursor: pointer; margin-left:10px; margin-top:3px; margin-bottom:5px;width: 52px;background: #fafafa;}
+	.btn_linea:hover		{	background: #e6e6e6;}
+	.boton, .boton:visited	{	cursor: pointer;width: auto !important;display: inline-block;background-color: #e6e6e6;background-repeat: no-repeat;
+								background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), color-stop(25%, #ffffff), to(#e6e6e6));
+								background-image: -webkit-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);background-image: -moz-linear-gradient(top, #ffffff, #ffffff 25%, #e6e6e6);
+								background-image: -ms-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);background-image: -o-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+								background-image: linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff',
+								endColorstr='#e6e6e6', GradientType=0);padding: 5px 14px 6px !important;text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+								text-decoration: none !important;color: #333;font-size: 13px;line-height: normal;border: 1px solid #ccc;border-bottom-color: #bbb;
+								-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;
+								-webkit-box-shadow:5px 5px 10px rgba(0, 0, 0, 0.7), inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+								-moz-box-shadow:5px 5px 10px rgba(0, 0, 0, 0.7), inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+								box-shadow:5px 5px 10px rgba(0, 0, 0, 0.7), inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+								-webkit-transition: 0.1s linear all;-moz-transition: 0.1s linear all;-ms-transition: 0.1s linear all;-o-transition: 0.1s linear all;
+								transition: 0.1s linear all;}
+    .boton:hover			{	background-position: 0 -15px; color: #333; text-decoration: none;}
+    .boton:focus			{	outline: 1px dotted #666;}
+    .boton:active			{	-webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.25), 0 1px 2px rgba(0, 0, 0, 0.05);-moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.25),
+								0 1px 2px rgba(0, 0, 0, 0.05);box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.25), 0 1px 2px rgba(0, 0, 0, 0.05);}
+    .boton.grande			{	font-size: 15px;line-height: normal;padding: 9px 14px 9px !important;-webkit-border-radius: 6px;-moz-border-radius: 6px;border-radius: 6px;}
+	.boton.peque 			{	padding: 3px 9px 4px !important;font-size: 11px;}
+    .boton.aceptar			{	color:#fff;background-color: #57a957;background-repeat: repeat-x;background-image: -khtml-gradient(linear, left top, left bottom,
+								from(#62c462), to(#57a957));background-image: -moz-linear-gradient(top, #62c462, #57a957);background-image: -ms-linear-gradient(top,
+								#62c462, #57a957);background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #62c462), color-stop(100%, #57a957));
+								background-image: -webkit-linear-gradient(top, #62c462, #57a957);background-image: -o-linear-gradient(top, #62c462, #57a957);
+								background-image: linear-gradient(top, #62c462, #57a957);filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#62c462',
+								endColorstr='#57a957', GradientType=0);text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);border-color: #57a957 #57a957 #3d773d;
+								border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);}
+	.boton.cancelar			{	color: #fff;background-color: #c43c35;background-repeat: repeat-x;background-image: -khtml-gradient(linear, left top, left bottom, from(#ee5f5b),
+								to(#c43c35));background-image: -moz-linear-gradient(top, #ee5f5b, #c43c35);background-image: -ms-linear-gradient(top, #ee5f5b, #c43c35);
+								background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ee5f5b), color-stop(100%, #c43c35));
+								background-image: -webkit-linear-gradient(top, #ee5f5b, #c43c35);background-image: -o-linear-gradient(top, #ee5f5b, #c43c35);
+								background-image: linear-gradient(top, #ee5f5b, #c43c35);filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ee5f5b',
+								endColorstr='#c43c35', GradientType=0);text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);border-color: #c43c35 #c43c35 #882a25;
+								border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);}

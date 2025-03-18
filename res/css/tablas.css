@@ -1,0 +1,45 @@
+/* CSS Document */
+/*
+ * Inicio de Sitio Web para Ingreso de Denuncias por parte de ciudadanos
+ * Para uso exclusivo de Ministerior del Interior - Republica Oriental de Uruguay
+ * Autor: Wilon Denis Arriola
+ * 01/10/2013 - Montevideo Uruguay
+ * 
+ * Pagina css
+ *
+ * hoja de stilo para las tablas
+ *
+ */
+	.contenedortbl						{	margin: auto 0; width:95%; padding:10px;}
+	/* B O R R O   E S T I L O S   P R E D E F I N I D O S */
+	table, table td, table tr 			{	padding:0px; margin:0px; border-spacing: 0px;}
+	/* E S T I L O S   B A S I C O S */
+	table 								{	border:2px black solid;border-radius:5px;width:1000px;font-family: Helvetica,Arial;}	/* bordes redondeados */
+	table td 							{	padding:6px;}
+	table tr:first-child td:first-child	{	border-radius:5px 0px 0px 0px;}			/*Primera fila, primera celda*/
+	table tr:first-child td:last-child	{	border-radius:0px 5px 0px 0px;}			/*Primera fila, última celda*/
+	table tr:last-child td:first-child	{	border-radius:0px 0px 0px 5px;}			/*Última fila, primera celda*/
+	table tr:last-child td:last-child	{	border-radius:0px 0px 5px 0px;}			/*Última fila, última celda*/
+	table td:not(:last-child) 			{	border-right:1px #666 solid;}			/*Lineas interiores*/
+	/* C A B E C E R A   Y   E S T I L O S  */
+	table.headertbl tr:first-child 		{	font-weight: bold;color:#fff;background-color: #444;border-bottom:1px #000 solid;}		/*Primera fila*/
+	table.headertbl tr:nth-child(n+2) 	{	text-align: right;}					/*Todas las filas a partir de la segunda*/
+	/* E F E C T O   C E B R A */
+	table tr:nth-child(2n) 				{	background: #87CEEB;}
+	table tr:nth-child(2n+1)			{	background: #ADD8E6;}
+	table.headertbl
+	tr:not(:first-child):hover,
+	table:not(.headertbl) tr:hover 		{	background:#E0FFFF;}
+	/* A L I N E A C I O N   P A R A   T A B L A   S I N   C A B E C E R A S */
+	table:not(.headertbl) tr 			{	text-align: left;}
+	/* E S T I L O   D E   F U E N T E S  Y  A L I N E A C I O N */
+	table.headertbl tr:first-child 		{	font-weight: bold;color:#fff;background-color: #444;border-bottom:1px #000 solid;text-align:left;}
+	table.headertbl tr:nth-child(n+2) 	{	text-align: right;}
+	/* A N C H O */
+	.td_numero							{	width:35px;}
+	.td_numero1							{	width:55px;}
+	.td_fecha							{	width:80px;}
+	/* B O T O N E S */
+	.tblbotones							{	width:1000px;margin:0pt auto;margin-top: 10px; margin-bottom:10px;border:2px solid #3e3e3e;text-align:center; padding-top:10px;
+											padding-bottom:5px;font-size:12px;line-height:2em;color:#8C8C8C;border-radius:0 25px 5px 0;
+											-moz-border-radius:0 25px 5px 0;-webkit-border-radius:0 25px 5px 0;}

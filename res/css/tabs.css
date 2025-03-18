@@ -1,0 +1,45 @@
+/*
+ * Inicio de Sitio Web para Ingreso de Denuncias por parte de ciudadanos
+ * Para uso exclusivo de Ministerior del Interior - Republica Oriental de Uruguay
+ * Autor: Wilon Denis Arriola
+ * 01/10/2013 - Montevideo Uruguay
+ * 
+ * Pagina css
+ *
+ * hoja de stilo para las pestañas
+ *
+ */
+/* pestañas */
+	@CHARSET "UTF-8";
+	.clear						{	clear: both;height: 0;visibility: hidden;display: block;line-height: 0;}
+	.sombrainterior				{	-moz-box-shadow: inset 0 4px 6px rgba(0,0,0,.5);-webkit-box-shadow: inset 0 4px 6px rgba(0,0,0,.5);box-shadow: inset 0 4px 6px rgba(0,0,0,.5);}
+	#container					{	z-index:200;}
+	#container ul				{	list-style:none;list-style-position:outside;}
+	#container ul.menu li		{	float:left;margin-right:8px;margin-bottom:-1px;}
+	#container ul.menu li		{	font-weight:700;display:block;padding:10px 15px;background:#171717;margin-bottom:-1px;border:1px solid #3e3e3e;border-width:1px 1px 1px 1px;
+									position:relative;color:#FFF;cursor:pointer;border-radius:3px 3px 0 0;-moz-border-radius:3px 3px 0 0;-webkit-border-radius:3px 3px 0 0;}
+	#container ul.menu li:hover	{	color: #264387;background:#171717;}
+	#container ul.menu li.active{	background:none;top:1px;border-bottom:0;color: #3B68CC;}
+
+/******* contenido *******/
+	/*.content					{	margin:0pt auto; border:1px solid #3e3e3e;text-align:left;padding:1.3em;padding-bottom:20px;font-size:12px;line-height:2em;color:#8C8C8C;
+									border-radius:0 5px 5px 0;-moz-border-radius:0 5px 5px 0;-webkit-border-radius:0 5px 5px 0;}*/
+	.botonera					{	margin:0pt auto;margin-top: 10px;border:1px solid #3e3e3e;text-align:left;padding: 10px;font-size:12px;line-height:2em;color:#8C8C8C;
+									border-radius:0 5px 25px 0;-moz-border-radius:0 5px 25px 0;-webkit-border-radius:0 5px 25px 0;}
+	/*.content h3					{	line-height:1em;vertical-align:middle;height:48px;padding:10px 10px 10px 52px;font-size:32px;color:#E4E1CD;}
+/******* tipo *******/	
+	/*.content.tipo				{	display:block;}
+/******* lugar *******/
+	/*.content.lugar				{	display:none;}
+/******* datos_personales *******/
+	/*.content.datos_personales h3{	}
+	.content.datos_personales	{	display:none;}
+/******* objetos *******/
+	/*.content.objetos			{	display:none;}
+/******* texto *******/
+	/*.content.texto h3			{	/* background:transparent url(../images/bullet.png) no-repeat scroll left top; */}
+	/*.content.texto				{	display:none;}
+/******* ampliacion *******/
+	/*.content.ampliacion h3		{	/*	background:transparent url(../images/bullet.png) no-repeat scroll left top; */}
+	/*.content.ampliacion			{	display:none;}
+	.content.ampliacion a		{	color:#498BBF;} */
