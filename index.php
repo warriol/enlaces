@@ -8,13 +8,15 @@
     <title>Enlaces | Wilson Arriola</title>
     <link rel="shortcut icon" href="res/img/ico.ico">
 
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.5.3/css/bootstrap.min.css" integrity="sha512-oc9+XSs1H243/FRN9Rw62Fn8EtxjEYWHXRvjS43YtueEewbS6ObfXcJNyohjHqVKFPoXXUxwc+q1K7Dee6vv9g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.14.1/themes/dark-hive/jquery-ui.min.css" integrity="sha512-12WoLKglPPjG1KwuSGLsvLS8Ebg7sgNV4WrJecc2B8CzvA/3EmZl4xLvkmV3tNmaHehFAWVbep6X3S5Bu48FWg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/admin-lte/2.3.11/css/AdminLTE.min.css" integrity="sha512-OpTV7JFzBvUmayH6j+X9+pjqdqjO06pudxNTqMr3Rycffr8/v5LcY88mGs9AfCt2cq4qMimUCr55JDTbx21IaA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- Theme style-->
-    <link rel="stylesheet" href="res/css/AdminLTE.css">
+
     <link rel="stylesheet" href="res/css/default.css">
     <link rel="stylesheet" href="res/css/skins/skin-blue.min.css">
     <link rel="stylesheet" href="res/css/style.css" />
@@ -26,7 +28,7 @@
     <link rel="stylesheet" href="res/css/nav.css" />
     <link rel="stylesheet" href="res/css/tablas.css" />
     <link rel="stylesheet" href="res/css/popup.css" />
-    <link rel="stylesheet" type="text/css" href="res/css/jquery-ui-1.7.2.custom.css" />
+
 
 </head>
 <body class="hold-transition skin-blue sidebar-mini sidebar-collapse">
@@ -97,13 +99,11 @@
                 <div class="col-md-12">
                     <div class="box box-info contenedor">
                         <div class="box-header with-border">
-                            <h3 class="box-title">COVID-19 en Uruguay</h3>
+                            <h3 class="box-title">Contenedor</h3>
                         </div><!-- /.box-header -->
                         <div class="box-body">
                             <div class="row">
                                 <div class="col-md-12">
-                                    <iframe name="telefonos" src="https://coronavirusuy.maps.arcgis.com/apps/opsdashboard/index.html#/98155a4390b644308c453e5b20b2516e" frameborder="0" width="100%" height="680px">
-                                    </iframe>
                                 </div><!-- /.col -->
                             </div><!-- /.row -->
                         </div><!-- /.box-body -->
@@ -180,10 +180,12 @@
 <!-- REQUIRED JS SCRIPTS -->
 <!-- jQuery 2.1.4 -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js" integrity="sha512-AFwxAkWdvxRd9qhYYp1qbeRZj6/iTNmJ2GFwcxsMOzwwTaRwz2a/2TX225Ebcj3whXte1WGQb38cXE5j7ZQw3g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<!-- Bootstrap 3.3.5 -->
-<script src="res/js/bootstrap.min.js"></script>
 <!-- AdminLTE App -->
-<script src="res/js/app.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/admin-lte/2.3.11/js/app.min.js" integrity="sha512-1RVjPAqvcJINLplROCBBeow4g5+cljZaJwPccabcOxz8K0BzR/OHQP0WFFw5jpGnNhuimS1XX2KUjpZpMrjE3g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- Bootstrap 3.3.5 -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.8/umd/popper.min.js" integrity="sha512-TPh2Oxlg1zp+kz3nFA0C5vVC6leG/6mm1z9+mA81MI5eaUVqasPLO8Cuk4gMF4gUfP5etR73rgU/8PNMsSesoQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.5.3/js/bootstrap.min.js" integrity="sha512-8qmis31OQi6hIRgvkht0s6mCOittjMa9GMqtK9hes5iEQBQE/Ca6yGE5FsW36vyipGoWQswBj/QBm2JR086Rkw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 <script type="text/javascript" src="res/js_utiles/sha512.js"></script>
 <script type="text/javascript" src="res/js_utiles/forms.js"></script>
 </body>
