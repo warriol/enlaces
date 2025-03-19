@@ -15,10 +15,15 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/admin-lte/2.3.11/css/AdminLTE.min.css" integrity="sha512-OpTV7JFzBvUmayH6j+X9+pjqdqjO06pudxNTqMr3Rycffr8/v5LcY88mGs9AfCt2cq4qMimUCr55JDTbx21IaA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!-- Theme style-->
+    <style>
+        .control-sidebar {
+            width: 400px !important;
+            right: -400px;
+        }
+    </style>
+    <!-- Theme style
 
     <link rel="stylesheet" href="res/css/default.css">
-    <link rel="stylesheet" href="res/css/skins/skin-blue.min.css">
     <link rel="stylesheet" href="res/css/style.css" />
     <link rel="stylesheet" href="res/css/etiqueta.css" />
     <link rel="stylesheet" href="res/css/iconos.css" />
@@ -28,7 +33,7 @@
     <link rel="stylesheet" href="res/css/nav.css" />
     <link rel="stylesheet" href="res/css/tablas.css" />
     <link rel="stylesheet" href="res/css/popup.css" />
-
+    -->
 
 </head>
 <body class="hold-transition skin-blue sidebar-mini sidebar-collapse">
@@ -128,11 +133,7 @@
     <!-----------------------------------------------------------------------------
     ------------------------------------------------------------------------------- FORMULARIO DE INICIO DE SESION --->
     <!-- Control Sidebar -->
-    <aside class="control-sidebar control-sidebar-dark">
-        <!-- Create the tabs -->
-        <ul class="nav nav-tabs nav-justified control-sidebar-tabs">
-            <li class="active"><a href="#control-sidebar-home-tab" data-toggle="tab"><i class="fa fa-user"></i></a></li>
-        </ul>
+    <aside class="control-sidebar control-sidebar-light">
         <!-- Tab panes -->
         <div class="tab-content">
             <!-- Home tab content -->
@@ -171,9 +172,6 @@
             </div><!-- /.tab-pane -->
         </div>
     </aside><!-- /.control-sidebar -->
-    <!-- Add the sidebar's background. This div must be placed
-         immediately after the control sidebar -->
-    <div class="control-sidebar-bg"></div>
 </div>
 <!-- ./wrapper -->
 
@@ -186,7 +184,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.8/umd/popper.min.js" integrity="sha512-TPh2Oxlg1zp+kz3nFA0C5vVC6leG/6mm1z9+mA81MI5eaUVqasPLO8Cuk4gMF4gUfP5etR73rgU/8PNMsSesoQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.5.3/js/bootstrap.min.js" integrity="sha512-8qmis31OQi6hIRgvkht0s6mCOittjMa9GMqtK9hes5iEQBQE/Ca6yGE5FsW36vyipGoWQswBj/QBm2JR086Rkw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-<script type="text/javascript" src="res/js_utiles/sha512.js"></script>
-<script type="text/javascript" src="res/js_utiles/forms.js"></script>
+<script type="text/javascript" src="assets/js/sha512.js"></script>
+<script type="text/javascript" src="assets/js/forms.js"></script>
 </body>
 </html>

@@ -1372,3 +1372,4 @@ miClase.openDb();
 miClase.inicializar();
 
 //miClase.addEventListeners();
+//

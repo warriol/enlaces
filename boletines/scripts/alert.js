@@ -54,3 +54,4 @@ function removeCustomAlert() {
 	document.getElementsByTagName("body")[0].removeChild(document.getElementById("modalContainer"));
 }
 //**
+//
